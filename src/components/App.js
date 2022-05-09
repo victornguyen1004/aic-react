@@ -1,10 +1,10 @@
-import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar/Sidebar";
 import Content from "./Content";
 
 function App() {
   return (
     <>
-      <div className="relative flex h-full min-h-screen w-screen bg-[#f8f8f8] font-sans text-lg">
+      <div className="relative flex flex-row h-full min-h-screen w-full bg-[#f8f8f8] font-sans text-lg">
         <Sidebar />
         <Content />
       </div>
