@@ -10,6 +10,7 @@ const dev = {
 function Sidebar() {
   return (
     <>
+    
       <div className="fixed left-0 top-0 bottom-0 h-full w-[240px] rounded-r-3xl bg-[#333333] text-[#FBFBFB] shadow-lg 2xl:w-[360px]">
         <div className="flex h-full w-full flex-col justify-between">
           <a
@@ -28,9 +29,26 @@ function Sidebar() {
           <div className="flex w-full justify-center">
             <ul id="navlist" className="w-full px-4 2xl:text-3xl">
               <SidebarItem link="/" icon="bx bxs-dashboard" title="tổng quan" />
-              <SidebarItem link="/" icon="bx bxs-face" title="học viên" />
-              <SidebarItem link="/" icon="bx bxs-graduation" title="giảng viên" />
-              <SidebarItem link="/" icon="bx bx-chalkboard" title="lớp học" />
+              <SidebarItem
+                link="/student"
+                icon="bx bxs-face"
+                title="học viên"
+              />
+              <SidebarItem
+                link="/teacher"
+                icon="fa-solid fa-chalkboard-user"
+                title="giảng viên"
+              />
+              <SidebarItem
+                link="/class"
+                icon="bx bx-chalkboard"
+                title="lớp học"
+              />
+              <SidebarItem
+                link="/parent"
+                icon="fa-solid fa-user-tie"
+                title="phụ huynh"
+              />
             </ul>
           </div>
           <span className="w-full pb-4 text-center font-mono text-xs 2xl:text-base">

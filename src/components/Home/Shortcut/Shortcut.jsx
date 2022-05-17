@@ -1,5 +1,5 @@
-import ShortcutItem from "./ShortcutItem";
-import ContentTitle from "./ContentTitle";
+import ShortcutItem from "../Shortcut/ShortcutItem";
+import ContentTitle from "../../ContentTitle";
 
 function Shortcut() {
   return (

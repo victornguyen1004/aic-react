@@ -1,22 +1,9 @@
-import ContentTitle from "./ContentTitle";
-import OverviewItem from "./OverviewItem";
-import db from "./firebase";
+import ContentTitle from "../../ContentTitle";
+import OverviewItem from "../Overview/OverviewItem";
+
 
 function Overview() {
   
-db.collection("cities")
-  .doc("LA")
-  .set({
-    name: "Los Angeles",
-    state: "CA",
-    country: "USA",
-  })
-  .then(function () {
-    console.log("Document successfully written!");
-  })
-  .catch(function (error) {
-    console.error("Error writing document: ", error);
-  });
   return (
     <>
       <div className="m-8 flex flex-col rounded-2xl bg-white p-4 shadow">
