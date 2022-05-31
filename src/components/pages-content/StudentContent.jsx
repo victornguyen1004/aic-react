@@ -6,10 +6,9 @@ import StudentList from "../Student/StudentList";
 function StudentContent() {
   return (
     <>
-    
+        <StudentList />
         <StudentAdd />
         <StudentDelete />
-        <StudentList />
     </>
   );
 }

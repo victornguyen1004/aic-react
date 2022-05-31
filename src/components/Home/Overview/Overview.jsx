@@ -17,6 +17,7 @@ function Overview() {
             </div>
           </div> */}
           <OverviewItem
+            link="/student"
             bgColor="bg-red-400"
             textColor="text-white"
             icon="fa-solid fa-user-graduate"
@@ -24,6 +25,7 @@ function Overview() {
             title="Học Viên"
           />
           <OverviewItem
+            link="/teacher"
             bgColor="bg-orange-400"
             textColor="text-white"
             icon="fa-solid fa-chalkboard-user"
@@ -31,6 +33,7 @@ function Overview() {
             title="Giảng Viên"
           />
           <OverviewItem
+            link="/class"
             bgColor="bg-green-600"
             textColor="text-white"
             icon="fa-solid fa-users-between-lines"
@@ -38,6 +41,7 @@ function Overview() {
             title="Lớp Học"
           />
           <OverviewItem
+            link="/parent"
             bgColor="bg-blue-400"
             textColor="text-white"
             icon="fa-solid fa-user-tie"

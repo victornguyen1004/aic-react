@@ -7,8 +7,8 @@ function Shortcut() {
       <div className="m-8 mt-0 rounded-2xl bg-white p-4 shadow">
         <ContentTitle desc="Phím tắt" />
         <div className="mb-2 grid w-full grid-cols-4 grid-rows-3 gap-x-8 gap-y-4 text-white">
-          <ShortcutItem name="Thêm" link="/" icon="bx bx-user-plus" />
-          <ShortcutItem name="Xóa" link="/" icon="bx bx-user-x" />
+          <ShortcutItem name="Thêm học viên" link="/student/add" icon="bx bx-user-plus" />
+          <ShortcutItem name="Xóa học viên" link="/student/remove" icon="bx bx-user-x" />
           <ShortcutItem name="Chỉnh sửa" link="/" icon="bx bxs-user-detail" />
           <ShortcutItem name="Học phí" link="/" icon="bx bx-credit-card" />
           <ShortcutItem name="Xem danh sách" link="/" icon="bx bx-list-ul" />
