@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aic-react/static/css/main.d824414a.css",
+    "main.js": "/aic-react/static/js/main.3f863c2f.js",
+    "static/media/logo.png": "/aic-react/static/media/logo.0ed4bdb1906ac18071d6.png",
+    "index.html": "/aic-react/index.html",
+    "main.d824414a.css.map": "/aic-react/static/css/main.d824414a.css.map",
+    "main.3f863c2f.js.map": "/aic-react/static/js/main.3f863c2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d824414a.css",
+    "static/js/main.3f863c2f.js"
+  ]
+}
